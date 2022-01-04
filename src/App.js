@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./styles.css";
+import YoutubeEmbed from "./YoutubeEmbed";
+import Audio from "./Audio";
 
-function App() {
+
+
+
+export default function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <div  className="App" > 
+    
+       <div>
+        
+       <Audio />
+      <YoutubeEmbed embedId="6NlnPUnm1IQ?controls=0&showinfo=0&autoplay=1&modestbranding=1&rel=0&mute=1&loop=1&origin" />
+      <div class="overlay">
+      
+      <a href="https://nicorocmusic.com" rel="noreferrer">
+           Nicoroc 
+            </a>
+       <h2> ROPE</h2> 
+       <h3> VRIl </h3>
+       
+       
+       
+   
+       </div>
+      </div>
     </div>
   );
 }
-
-export default App;
