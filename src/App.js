@@ -14,15 +14,15 @@ export default function App() {
     
        <div>
         
-       <Audio />
+       
       <YoutubeEmbed embedId="6NlnPUnm1IQ?controls=0&showinfo=0&autoplay=1&modestbranding=1&rel=0&mute=1&loop=1&origin" />
-      <div class="overlay">
-      
+      <div className="overlay">
+      <Audio />
       <a href="https://nicorocmusic.com" rel="noreferrer">
-           Nicoroc 
+          <h1>n i c o r o c </h1> 
             </a>
-       <h2> ROPE</h2> 
-       <h3> VRIl </h3>
+       <h2> r o p e</h2> 
+       <h3> v r i l </h3>
        
        
        

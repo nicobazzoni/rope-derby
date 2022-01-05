@@ -8,9 +8,9 @@ class Audio extends React.Component {
       // every controls can be styable and customizable through events
       <AudioPlayer
         src="https://storage.googleapis.com/nicoroc_audio/Rope%20-1220ZMASTER%20(1).wav"
-        autoPlay={true}
-        controls={false}
-        showJumpControls={false}
+        autoPlay
+        controls
+        showJumpControls
       />
     );
   }
